@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Added another instance,application loadbalancer and cloudfront distro\nHello, Node running at 8000! \nChanges in code to see autodeployment'
+  const msg = 'Hello World! Node runninng at 3000\n created by aditya'
   res.end(msg);
 });
 
